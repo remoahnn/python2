@@ -1,0 +1,61 @@
+meme_dict = {
+    "CRINGE": "Garip ya da utandırıcı bir şey",
+    "LOL": "Komik bir şeye verilen cevap",
+    "ROFL": "Kahkahadan yerlere yatmak",
+    "SHEESH": "Hayranlık veya onay belirtmek",
+    "CREEPY": "Korkunç, ürkütücü durum",
+    "AGGRO": "Sinirli, agresif hâl",
+    "AFK": "Klavyeden uzak",
+    "ASAP": "En kısa zamanda",
+    "BAE": "Sevgili, çok yakın dost",
+    "BRO": "Kardaş, yakın dost",
+    "BRB": "Hemen dönerim",
+    "CAP": "Yalan, palavra",
+    "NO CAP": "Yemin ederim yalan değil",
+    "CHILL": "Sakinleşmek, rahatlamak",
+    "DRAMA": "Gereksiz kavga, tantana",
+    "EZ": "Çok kolay",
+    "FLEX": "Caka satmak, gösteriş yapmak",
+    "FOMO": "Gelişmeleri kaçırma korkusu",
+    "GG": "Güzel oyundu",
+    "GOAT": "Tüm zamanların en iyisi",
+    "GHOSTING": "Birini ortadan kaybolarak terk etmek",
+    "HYPE": "Büyük coşku, heyecan",
+    "IRL": "Gerçek hayatta",
+    "LMAO": "Gülmekten kopmak",
+    "MEH": "Pek de umrumda değil",
+    "MOOD": "O anki ruh hali",
+    "NERD": "İlim irfan düşkünü",
+    "NOOB": "Acemi",
+    "NPC": "Sıradan insan",
+    "OOMF": "Bahsi geçen gizli kişi",
+    "OP": "Haddinden fazla güçlü",
+    "POG": "Harika, fevkalade",
+    "ROAST": "Laf sokarak yerin dibine sokmak",
+    "SIMP": "Birine kul köle olan",
+    "SKSKSK": "Heyecan belirtisi",
+    "SPOILER": "Tadını kaçıran ön bilgi",
+    "STAN": "Delicesine hayran olan",
+    "SUS": "Şüpheli, tekinsiz",
+    "TBH": "Doğrusunu söylemek gerekirse",
+    "TLDR": "Uzun lafın kısası",
+    "TOXIC": "Zehirli insan",
+    "TROLL": "İşleten kimse",
+    "VIBE": "Ortamın enerjisi",
+    "W": "Zafer",
+    "L": "Mağlubiyet",
+    "YOLO": "Dünyaya bir kez geliniyor",
+    "YEET": "Şiddetle fırlatıp atmak",
+    "BOOMER": "Eski kafalı kimse",
+    "VALID": "Geçerli ve makbul",
+    "linux": " düüüünyanın en iyi işletim sistemi ",
+    "valo": "dünyanın en iyi oyunu"
+}
+
+
+kelime = input("Hangi kelimeyi merak edersin?: ").upper()
+
+if kelime in meme_dict:
+    print(meme_dict[kelime])
+else:
+    print("böyle kelime yok yok.")
